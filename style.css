@@ -1,0 +1,49 @@
+#container{
+    color: red;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 200px;
+    width: 100%;
+}
+ul li {
+    color: #ffffff;
+}
+ul li:hover{
+    color: black;
+}
+.navbar{
+    display: flex;
+    background-color: #89baf3;
+   
+}
+.navbar-left{
+    padding: 20px;
+    display: flex;
+}
+.navbar-left-text{
+    line-height: 5px;
+    padding-left: 5px;
+    color: white;
+}
+.navbar-left-text p{
+    color:black;
+}
+.navbar-left img{
+    height: 90px;
+}
+.Homepage{
+    background-image: url('charminar.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.contactInfo{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+   
+}
